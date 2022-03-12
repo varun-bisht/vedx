@@ -1,6 +1,5 @@
 package com.varun.vedx.model;
 
-import java.util.Objects;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -12,14 +11,11 @@ import javax.persistence.Table;
 import org.hibernate.Hibernate;
 
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.RequiredArgsConstructor;
-import lombok.Setter;
+
+import lombok.Data;
 import lombok.ToString;
 
-@Getter
-@Setter
+@Data
 @ToString
 @Entity
 @Table(name = "customers")
